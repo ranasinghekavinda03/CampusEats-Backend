@@ -1,0 +1,39 @@
+# .NET build output
+bin/
+obj/
+publish/
+
+# Visual Studio and VS Code
+.vs/
+.vscode/
+.idea/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs and diagnostics
+*.log
+logs/
+build_diag.txt
+build_output.txt
+
+# Environment variable files
+.env
+.env.*
+!.env.example
+
+# Local development configuration
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
